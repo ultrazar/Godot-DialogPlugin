@@ -31,7 +31,7 @@ If you're downloading the repository instead, make sure to move only `dialog_plu
 # What is new on this version? [0.1.4]
 - **Say "¡Hola!" to internationalization.** Now you can use translations in your dialogs, and export or import those _(as .csv)_ aswell. Don't worry, you can use your own translations before using the plugin.
 
-Want to see the whole changelog? Take a look on [CHANGELOG.md](https://anidemdex.gitbook.io/godot-dialog-plugin/changelog/0.x.x-pre-release#0-1-4-2021-05-09)
+Want to see the whole changelog? Take a look on [Changelog](https://anidemdex.gitbook.io/godot-dialog-plugin/changelog/0.x.x-pre-release#0-1-4-2021-05-09)
 # How to use it
 
 This can be separated as 2 different things:
