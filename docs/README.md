@@ -30,7 +30,7 @@ Want to see the whole changelog? Take a look on [Changelog](changelog/0.x.x-pre-
 
 ### Documentation
 
-Please refer to [DOCS.md](/docs/DOCS.md) \(WIP\)
+{% page-ref page="documentation/information/" %}
 
 ## More information
 
