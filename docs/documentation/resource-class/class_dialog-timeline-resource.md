@@ -1,8 +1,10 @@
+---
+description: Base class for all timeline resources.
+---
+
 # DialogTimelineResource
 
-#### **Inherits:** [Resource]()
-
-Base class for all `timeline` resources.
+**Inherits:** [Resource](https://docs.godotengine.org/es/stable/classes/class_resource.html)
 
 ## Description
 
