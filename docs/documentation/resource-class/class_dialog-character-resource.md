@@ -18,9 +18,5 @@ description: Base class for all characters resource.
 | [Texture](https://docs.godotengine.org/es/stable/classes/class_texture.html#class-texture) | icon | Character icon. Used by the editor. |
 | [AudioStream](https://docs.godotengine.org/es/stable/classes/class_audiostream.html#class-audiostream) | blip\_sound | Character sound when talking. |
 {% endtab %}
-
-{% tab title="Methods" %}
-
-{% endtab %}
 {% endtabs %}
 
