@@ -1,39 +1,26 @@
+---
+description: Base class for all characters resource.
+---
+
 # DialogCharacterResource
 
-#### **Inherits:** [Resource]()
+**Inherits:** [**Resource**](https://docs.godotengine.org/es/stable/classes/class_resource.html)\*\*\*\*
 
-Base class for all `character`s resource.
+{% tabs %}
+{% tab title="Properties" %}
+| Type | Name | Description |
+| :--- | :--- | :--- |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html#class-string) | name | Name of the character. By default, is the same as the `resource_name` |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html#class-string) | display\_name | Name of the character that'll be displayed in game. By default, is the same as `name` |
+| [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html#class-bool) | display\_name\_bool |  |
+| [Color](https://docs.godotengine.org/es/stable/classes/class_color.html) | color | Color of the character name |
+| [PortraitArray](resourcearray.md) | portraits | Collection of portraits that'll be displayed in game |
+| [Texture](https://docs.godotengine.org/es/stable/classes/class_texture.html#class-texture) | icon | Character icon. Used by the editor. |
+| [AudioStream](https://docs.godotengine.org/es/stable/classes/class_audiostream.html#class-audiostream) | blip\_sound | Character sound when talking. |
+{% endtab %}
 
-## Description
+{% tab title="Methods" %}
 
-## Properties
-
-| Type | Name |
-| :--- | :--- |
-| String | name |
-| String | display\_name |
-| bool | display\_name\_bool |
-| Color | color |
-| String | description |
-| PortraitArray | portraits |
-
-## Methods
-
-| Type | Name |
-| :--- | :--- |
-
-
-## Signals
-
-## Enumerations
-
-## Constants
-
-## Property Descriptions
-
-### ◽
-
-## Method Descriptions
-
-### ◽
+{% endtab %}
+{% endtabs %}
 
