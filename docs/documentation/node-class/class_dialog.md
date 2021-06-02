@@ -1,35 +1,59 @@
-# Dialog
+---
+description: Static class to deal with Dialog plugin.
+---
 
-Static class to deal with Dialog plugin.
+# Dialog
 
 ## Description
 
-You can call any of these methods from any script.
+Dialog is the core class of the plugin. You can call any of its methods in any script.   
+  
+This class exposes methods to create new [`Dialog`](class_dialog-base-node/) nodes or modify the plugin saved variables.
 
-## Methods
-
+{% tabs %}
+{% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| void | [start]() \(timeline, String dialog\_scene\_path="", bool use\_bubble=false\) |
-| DialogBaseNode | [get\_default\_dialog\_textbox]() \(\) |
-| DialogBaseNode | [get\_default\_dialog\_bubble]() \(\) |
+| void | [start ](class_dialog.md#dialogbasenode-start-timeline-string-dialog_scene_path-bool-use_bubble-false)\(timeline, String dialog\_scene\_path="", bool use\_bubble=false\) |
+| [DialogBaseNode](class_dialog-base-node/) | [get\_default\_dialog\_textbox ](class_dialog.md#dialogbasenode-get_default_dialog_textbox)\( \) |
+| [DialogBaseNode](class_dialog-base-node/) | [get\_default\_dialog\_bubble ](class_dialog.md#dialogbasenode-get_default_dialog_bubble)\( \) |
+| Dictionary | get\_variables \( \) |
+| Variant | get\_variable \( String key \) |
+| void | set\_variable \( String key, value\) |
+{% endtab %}
 
-## Constants
+{% tab title="Constants" %}
+### DefaultDialogTextBox:String
 
-* DefaultDialogTextBox:String --- Default dialog text box scene path
-* DefaultDialogBubble:String --- Default dialog bubble scene path
+Default dialog text box scene path
+
+### DefaultDialogBubble:String
+
+Default dialog bubble scene path
+{% endtab %}
+{% endtabs %}
 
 ## Method Descriptions
 
-### ◽ void **start\(** timeline, String dialog\_scene\_path="", bool use\_bubble=false **\)**
+### •  [DialogBaseNode](class_dialog-base-node/) start\(timeline, String dialog\_scene\_path="", bool use\_bubble=false\) 
 
-### ◽ \[DialogBaseNode\]\[class\_dialog\_base\_node\] **get\_default\_dialog\_textbox \( \)**
+Returns a DialogBaseNode instance.
+
+`timeline` can be:
+
+* The name of your timeline \(the name that you used when you created it\),
+* The absolute path \(something like `res://dialog_files/timelines/<your_timeline>.tres`\) to that timeline,
+* A `DialogTimelineResource`.
+
+`dialog_scene_path` is the path of an scene wich returns a `DialogBaseNode` when is instanced. If none is passed, the default one is used.
+
+`use_bubble`determines if the returned node is a speech bubble or a text box. This property is ignored if `dialog_scene_path` is a valid path.
+
+### •  [DialogBaseNode ](class_dialog-base-node/)**get\_default\_dialog\_textbox \( \)**
 
 Returns a DialogBaseNode instance of the default textbox.
 
-### ◽ \[DialogBaseNode\]\[class\_dialog\_base\_node\] **get\_default\_dialog\_bubble \( \)**
+### •  [DialogBaseNode ](class_dialog-base-node/)**get\_default\_dialog\_bubble \( \)**
 
-Returns a \[DialogBaseNode\]\[class\_dialog\_base\_node\] instance of the default dialog bubble.
-
-\[class\_dialog\_base\_node\]:.
+Returns a [DialogBaseNode](class_dialog-base-node/) instance of the default dialog bubble.
 

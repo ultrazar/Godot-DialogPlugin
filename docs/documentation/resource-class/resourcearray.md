@@ -24,5 +24,3 @@ Debe existir [debido a un bug](https://github.com/godotengine/godot/issues/20436
   * void **remove\(resource:** [**Resource**](https://docs.godotengine.org/es/stable/classes/class_resource.html#class-resource)**\)**
   * Array **get\_resources\(\)**
 
-\[2\]:[https://github.com/godot-extended-libraries/godot-next/blob/master/addons/godot-next/resources/array\_map.gd](https://github.com/godot-extended-libraries/godot-next/blob/master/addons/godot-next/resources/array_map.gd)
-

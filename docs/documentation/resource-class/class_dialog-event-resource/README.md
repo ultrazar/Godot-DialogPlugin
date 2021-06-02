@@ -1,43 +1,84 @@
+---
+description: Base class for all dialog events.
+---
+
 # DialogEventResource
 
-#### **Inherits:** [Resource]()
+**Inherits:** [Resource](https://docs.godotengine.org/es/stable/classes/class_resource.html)
 
-#### **Inherited by:** [DialogTextEvent](), [DialogCharacterJoinEvent](), [DialogCharacterLeaveEvent](), [DialogWaitTimeEvent]()
-
-Base class for all dialog `event`s.
+**Inherited by:** DialogTextEvent, [DialogCharacterEvent](dialogcharacterevent.md), DialogWaitTimeEvent, DialogJumpToEvent, DialogChangeTimelineEvent, DialogCustomEvent
 
 ## Description
 
 Every dialog event relies on this class. If you want to do your own event, you should `extend` this class.
 
-## Properties
+{% tabs %}
+{% tab title="Properties" %}
+| Type | Name | Default |
+| :--- | :--- | :--- |
+| [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) | skip | `false` |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_editor\_scene\_path | `"res://addons/dialog_plugin/Nodes/editor_event_nodes/event_node_template.tscn"` |
+| [DialogBaseNode](../../node-class/class_dialog-base-node/) | \_caller | `null` |
 
+### Property Descriptions
+
+#### [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) skip <a id="property-skip"></a>
+
+Determines if the event will go to next event inmediatly or not. If skip is true, the next event will be executed after thie event ends.
+
+
+
+#### [String](https://docs.godotengine.org/es/stable/classes/class_string.html) event\_editor\_scene\_path
+
+The editor scene path to be used in the timeline editor.
+
+
+
+#### [DialogBaseNode](../../node-class/class_dialog-base-node/) \_caller
+
+The caller node of this event.
+{% endtab %}
+
+{% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| DialogBaseNode | \_caller |
+| void | execute \( [DialogBaseNode ](../../node-class/class_dialog-base-node/)caller \) |
+| void | finish \( [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) skip=false \) |
+| [DialogEditorEventNode](../../node-class/class_dialog-editor-event-node.md) | get\_editor\_node \( \) |
+{% endtab %}
 
-## Methods
+{% tab title="Signals" %}
+### •  event\_started \( event\_resource\)
 
-| Type | Name |
-| :--- | :--- |
-| void | excecute \( DialogBaseNode caller \) |
-| void | finish \( bool skip=false \) |
-| DialogEditorEventNode | get\_editor\_node \( \) |
+Emmited when the event starts.  
+The signal is emmited with the event resource `event_resource`.
 
-## Signals
+### •  event\_finished \( event\_resource, jump\_to\_next\_event \)
 
-* event\_started\(event\_resource\)
-* event\_finished\(event\_resource\)
+Emmited when the event finish.   
+The signal is emmited with the event resource `event_resource` and a `bool` value `jump_to_next_event`.
+{% endtab %}
 
-  **Enumerations**
+{% tab title="Constants" %}
+### TranslationService
 
-  **Constants**
+### VARIABLES\_PATH
+{% endtab %}
+{% endtabs %}
 
-  **Property Descriptions**
+## Method Descriptions
 
-  **◽**
+### •  void  execute \( [DialogBaseNode ](../../node-class/class_dialog-base-node/)caller \)
 
-  **Method Descriptions**
+Executes the event behaviour.
 
-  **◽**
+### •  void  finish \(  [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) skip=false \)
+
+Ends the event behaviour.
+
+### •  [DialogEditorEventNode](../../node-class/class_dialog-editor-event-node.md)  get\_editor\_node \( \)
+
+Returns the [DialogEditorEventNode ](../../node-class/class_dialog-editor-event-node.md)defined on `event_editor_scene_path`.
+
+
 

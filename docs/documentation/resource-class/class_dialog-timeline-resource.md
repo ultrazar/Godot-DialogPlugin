@@ -6,35 +6,36 @@ description: Base class for all timeline resources.
 
 **Inherits:** [Resource](https://docs.godotengine.org/es/stable/classes/class_resource.html)
 
-## Description
+{% tabs %}
+{% tab title="Properties" %}
+| Type | Name | Description |
+| :--- | :--- | :--- |
+| [EventArray](resourcearray.md) | events | Events of this timeline. |
+| [int](https://docs.godotengine.org/es/stable/classes/class_int.html) | current\_event | The current `event` of the timeline. |
+| [Array](https://docs.godotengine.org/es/stable/classes/class_array.html) | `_related_characters` | Array of [CharacterResource](class_dialog-character-resource.md)s related to this timeline. |
+{% endtab %}
 
-## Properties
-
+{% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| EventArray | events |
-| int | current\_event |
+| void | \`\`[`start`](class_dialog-timeline-resource.md#start-dialogbasenode-caller) \( [DialogBaseNode ](../node-class/class_dialog-base-node/)caller\) |
+| void | \`\`[`go_to_next_event`](class_dialog-timeline-resource.md#go_to_next_event-dialogbasenode-caller)\( [DialogBaseNode ](../node-class/class_dialog-base-node/)caller \) |
+{% endtab %}
 
-## Methods
+{% tab title="Signals" %}
+### •  timeline\_ended
 
-| Type | Name |
-| :--- | :--- |
-| void | start \( DialogBaseNode caller \) |
-| void | go\_to\_next\_event \( DialogBaseNode caller \) |
+Emmited when the timeline ends.
+{% endtab %}
+{% endtabs %}
 
-## Signals
+## Method Descriptions
 
-* timeline\_ended
+### •  start \( [DialogBaseNode ](../node-class/class_dialog-base-node/)caller\)
 
-  **Enumerations**
+Execute the `current_event` in `events`.
 
-  **Constants**
+### •  go\_to\_next\_event \( [DialogBaseNode ](../node-class/class_dialog-base-node/)caller \)
 
-  **Property Descriptions**
-
-  **◽**
-
-  **Method Descriptions**
-
-  **◽**
+Try to execute the next event in `events`. If there are no more events, `timeline_ended` signal is emmited.
 

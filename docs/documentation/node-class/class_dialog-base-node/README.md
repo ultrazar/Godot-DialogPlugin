@@ -1,65 +1,64 @@
+---
+description: Base class of any Dialog node.
+---
+
 # DialogBaseNode
 
-#### **Inherits:** [CanvasItem](https://docs.godotengine.org/en/stable/classes/class_canvasitem.html)
-
-Base class of any `Dialog` node.
+**Inherits:** [CanvasItem](https://docs.godotengine.org/en/stable/classes/class_canvasitem.html)
 
 ## Description
 
-`Dialog` nodes inheriths this class. This class works as a "Dialog Manager".
+`Dialog` nodes inheriths this class.   
+This class works as a "Dialog Manager". You should not instance this class manually, you should `extends` its functionality.
 
-## Properties
+{% tabs %}
+{% tab title="Properties" %}
+| Type | Name | Default |
+| :--- | :--- | :--- |
+| String | [timeline\_name]() |  |
+| NodePath | [DialogNode\_path]() |  |
+| NodePath | [PortraitsNode\_path]() |  |
+| DialogTimelineResource | [timeline]() |  |
+| float | [text\_speed]() |  |
+| bool | [event\_finished]() |  |
+| String | [next\_input]() |  |
+| DialogDialogueNode | [DialogNode]() |  |
+| DialogPortraitManager | [PortraitManager]() |  |
+{% endtab %}
 
-| Type | Name |
-| :--- | :--- |
-| String | [timeline\_name]() |
-| NodePath | [DialogNode\_path]() |
-| NodePath | [PortraitsNode\_path]() |
-| DialogTimelineResource | [timeline]() |
-| float | [text\_speed]() |
-| bool | [event\_finished]() |
-| String | [next\_input]() |
-| DialogDialogueNode | [DialogNode]() |
-| DialogPortraitManager | [PortraitManager]() |
-
-## Methods
-
+{% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
 | void | [start\_timeline]() \( \) |
 | DialogTimelineResource | [load\_timeline]() \( \) |
+{% endtab %}
+{% endtabs %}
 
-## Signals
 
-## Enumerations
 
-## Constants
+**Property Descriptions**
 
-* DialogUtil
+**◽ String timeline\_name**
 
-  **Property Descriptions**
+**◽ DialogTimelineResource timeline**
 
-  **◽ String timeline\_name**
+**◽ NodePath DialogNode\_path**
 
-  **◽ DialogTimelineResource timeline**
+**◽ NodePath PortraitsNode\_path**
 
-  **◽ NodePath DialogNode\_path**
+**◽ float text\_speed**
 
-  **◽ NodePath PortraitsNode\_path**
+**◽ bool event\_finished**
 
-  **◽ float text\_speed**
+**◽ String next\_input**
 
-  **◽ bool event\_finished**
+**◽ DialogDialogueNode DialogNode**
 
-  **◽ String next\_input**
+**◽ DialogPortraitManager PortraitManager**
 
-  **◽ DialogDialogueNode DialogNode**
+**Method Descriptions**
 
-  **◽ DialogPortraitManager PortraitManager**
+**◽ void start\_timeline \( \)**
 
-  **Method Descriptions**
-
-  **◽ void start\_timeline \( \)**
-
-  **◽ DialogTimelineResource load\_timeline \( \)**
+**◽ DialogTimelineResource load\_timeline \( \)**
 
