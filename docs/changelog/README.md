@@ -43,6 +43,7 @@ Unreleased version. This is what is going to be in the next version \[0.2 probab
 * **Portrait ReferenceRect are now useful.** They represent how the portrait may be in game.
 * **Script templates.** Now with more comments.
 * **DialogEvent in button events nodes.** Now is more easy to display custom resources. Errors may appear in console due a godot related bug.
+* DialogEvent now must use `execute` instead `excecute`
 
 ## **Deprecated**
 
