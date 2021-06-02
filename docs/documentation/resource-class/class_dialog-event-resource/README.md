@@ -62,7 +62,11 @@ The signal is emmited with the event resource `event_resource` and a `bool` valu
 {% tab title="Constants" %}
 ### TranslationService
 
+TranslationService object, used to translate text in the editor and export CSV files.
+
 ### VARIABLES\_PATH
+
+Path of the saved variables resource.
 {% endtab %}
 {% endtabs %}
 

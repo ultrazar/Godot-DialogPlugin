@@ -33,3 +33,11 @@ The portrait index selected for this event.
 {% endtab %}
 {% endtabs %}
 
+## Method Descriptions
+
+### •  [DialogPortraitResource](../class_dialog-portrait-resource.md) get\_selected\_portrait \( [DialogBaseNode ](../../node-class/class_dialog-base-node/)caller \)
+
+Returns the portrait selected according to `selected_portrait` or `null` if none is selected.
+
+
+
