@@ -32,56 +32,66 @@ This class works as a "Dialog Manager". You should not instance this class manua
 
 #### [String](https://docs.godotengine.org/es/stable/classes/class_string.html) timeline\_name
 
+The file path of the timeline.
+
 #### [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) DialogNode\_path
 
-[NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) PortraitsNode\_path
+NodePath that refers to the DialogNode
 
-#### DialogTimelineResource timeline
+#### [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) PortraitsNode\_path
 
-#### float text\_speed
+NodePath that referes to the PortraitManager node
 
-#### bool event\_finished
+#### [DialogTimelineResource ](../../resource-class/class_dialog-timeline-resource.md)timeline
 
-#### String next\_input
+Timeline resource used by this node. If is `null`, `timeline_name`is loaded.
 
-#### DialogDialogueNode DialogNode
+#### [float ](https://docs.godotengine.org/es/stable/classes/class_float.html)text\_speed
 
-#### DialogPortraitManager PortraitManager
+{% hint style="warning" %}
+This property will probably be removed and set to  [`DialogDialogueNode`](class_dialog-dialogue-node.md) instead.
+{% endhint %}
+
+The speed of the text.
+
+#### [bool ](https://docs.godotengine.org/es/stable/classes/class_bool.html)event\_finished
+
+If `true` the event have just finished.
+
+#### [String ](https://docs.godotengine.org/es/stable/classes/class_string.html)next\_input
+
+The `Input` event that will trigger the `skip` action of the event on finish.
+
+#### [DialogDialogueNode ](class_dialog-dialogue-node.md)DialogNode
+
+Dialogue Node.
+
+#### [DialogPortraitManager ](class_dialog-portrait-manager.md)PortraitManager
+
+Portrait Container Node.
 {% endtab %}
 
 {% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| void | [start\_timeline]() \( \) |
-| DialogTimelineResource | [load\_timeline]() \( \) |
+| void | [start\_timeline ](./#void-start_timeline)\( \) |
+| [DialogTimelineResource](../../resource-class/class_dialog-timeline-resource.md) | [load\_timeline ](./#dialogtimelineresource-load_timeline)\( \) |
+{% endtab %}
+
+{% tab title="Constants" %}
+### TranslationService
+
+### DialogUtil
 {% endtab %}
 {% endtabs %}
 
-
-
-**Property Descriptions**
-
-**◽ String timeline\_name**
-
-**◽ DialogTimelineResource timeline**
-
-**◽ NodePath DialogNode\_path**
-
-**◽ NodePath PortraitsNode\_path**
-
-**◽ float text\_speed**
-
-**◽ bool event\_finished**
-
-**◽ String next\_input**
-
-**◽ DialogDialogueNode DialogNode**
-
-**◽ DialogPortraitManager PortraitManager**
-
 ## **Method Descriptions**
 
-**◽ void start\_timeline \( \)**
+### •  **void start\_timeline \( \)**
 
-**◽ DialogTimelineResource load\_timeline \( \)**
+Starts the timeline.
+
+### •  ****[**DialogTimelineResource** ](../../resource-class/class_dialog-timeline-resource.md)**load\_timeline \( \)**
+
+Loads the timeline defined in `timeline_name`.
 

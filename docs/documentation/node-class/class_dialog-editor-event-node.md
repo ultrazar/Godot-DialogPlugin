@@ -1,59 +1,62 @@
+---
+description: Base class for all event editor nodes.
+---
+
 # DialogEditorEventNode
 
-#### **Inherits:** \[Control\]\[class\_control\]
-
-#### **Inherited by:** 
-
-Base class for all event editor nodes.
+**Inherits:** Control
 
 ## Description
 
-This is the generic node that is displayed inside the timeline editor. You can extend this class on any control node.
+This is the generic node that is displayed inside the timeline editor. You can extend this class on any Control Node to make your own custom event editor node for your custom events.
 
-## Properties
+{% tabs %}
+{% tab title="Properties" %}
+| Type | Name | Default |
+| :--- | :--- | :--- |
+| DialogEventResource | base\_resource | `null` |
+| int | idx | `0` |
+| Color | event\_color | `Color("3c3d5e")` |
+| NodePath | IconNode\_path | `""` |
+| NodePath | TopContent\_path | `""` |
+| NodePath | PropertiesContainer | `""` |
+| NodePath | IndexLbl\_path | `""` |
+| NodePath | SkipBtn\_path | `""` |
+| PanelContainer | top\_content\_node | `null` |
+| PanelContainer | properties\_content\_node | `null` |
+| TextureRect | icon\_node | `null` |
+| Label | index\_label\_node | `null` |
+| CheckBox | skip\_button\_node | `null` |
+{% endtab %}
 
+{% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| DialogEventResource | base\_resource |
-| int | idx |
-| NodePath | IconNode\_path |
-| NodePath | TopContent\_path |
-| NodePath | CenterContent\_path |
-| NodePath | BottomContent\_path |
-| NodePath | IndexLbl\_path |
-| NodePath | MenuBtn\_path |
-| PanelContainer | top\_content\_node |
-| PanelContainer | center\_content\_node |
-| PanelContainer | bottom\_content\_node |
-| TextureRect | icon\_node |
-| Label | index\_label\_node |
-| MenuButton | menu\_button\_node |
+| void | \_update\_node\_values \( \) |
+{% endtab %}
 
-## Methods
+{% tab title="Signals" %}
+### delelete\_item\_requested\(item\)
 
-| Type | Name |
-| :--- | :--- |
+### save\_item\_requested\(item\)
 
+### item\_selected\(item\)
 
-## Signals
+### item\_dragged\(item, node\_idx, to\_idx\)
 
-* delelete\_item\_requested\(item\)
-* save\_item\_requested\(item\)
-* item\_selected\(item\)
+### timeline\_requested\(emitter\_node\)
+{% endtab %}
 
-  **Enumerations**
+{% tab title="Constants" %}
+### DEFAULT\_COLOR
 
-## Constants
+```swift
+Color("#999999")
+```
 
-* DialogUtil
+### TranslationService
 
-## Property Descriptions
-
-### ◽
-
-## Method Descriptions
-
-### ◽
-
-\[class\_control\]:\#
+### DialogUtil
+{% endtab %}
+{% endtabs %}
 
