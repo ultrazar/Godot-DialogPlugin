@@ -36,7 +36,7 @@ This is the generic node that is displayed inside the timeline editor. You can e
 {% endtab %}
 
 {% tab title="Signals" %}
-### delelete\_item\_requested\(item\)
+### deletion\_requested\(item\)
 
 ### save\_item\_requested\(item\)
 
