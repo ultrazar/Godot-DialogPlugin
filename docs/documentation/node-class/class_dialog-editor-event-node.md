@@ -40,11 +40,7 @@ This is the generic node that is displayed inside the timeline editor. You can e
 
 ### save\_item\_requested\(item\)
 
-### item\_selected\(item\)
-
-### item\_dragged\(item, node\_idx, to\_idx\)
-
-### timeline\_requested\(emitter\_node\)
+### event\_being\_dragged\(\)
 {% endtab %}
 
 {% tab title="Constants" %}
