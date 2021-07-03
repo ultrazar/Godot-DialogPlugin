@@ -19,6 +19,7 @@
 * [Resource Class](documentation/resource-class/README.md)
   * [DialogTimelineResource](documentation/resource-class/class_dialog-timeline-resource.md)
   * [DialogEventResource](documentation/resource-class/class_dialog-event-resource/README.md)
+    * [DialogTextEvent](documentation/resource-class/class_dialog-event-resource/dialogtextevent.md)
     * [DialogCharacterEvent](documentation/resource-class/class_dialog-event-resource/dialogcharacterevent.md)
   * [DialogCharacterResource](documentation/resource-class/class_dialog-character-resource.md)
   * [DialogPortraitResource](documentation/resource-class/class_dialog-portrait-resource.md)
