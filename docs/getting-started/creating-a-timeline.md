@@ -1,12 +1,30 @@
 # Creating a Timeline
 
-1. First, create a timeline, inside the Dialog Editor tab.
+{% hint style="info" %}
+The plugin must be activated.
+{% endhint %}
 
-   After activating the plugin, go to Dialog Editor tab. It should be next to `AssetLib` tab.
+## Creating a timeline through the editor
 
-   Then, click on `Timelines` button and `New` button.
+* Go to FileSystem tab.
 
-2. Add some events to that timeline. A timeline without events will not work, and will halt your game if you try to use it.
+![FileSystem tab](../.gitbook/assets/image.png)
 
-> **Note**: you can also can create timelines and events through code if you preffer.
+* Right click and click on `New Resource`.
+
+![](../.gitbook/assets/file_system_en_example.gif)
+
+* Select `DialogTimelineResource` and save it whetever you want.
+
+![](../.gitbook/assets/new_resource_en_example.gif)
+
+## Creating a timeline through code
+
+Create a `DialogTimelineResource` resource and assign it to a variable to use it.
+
+```swift
+var timeline = DialogTimelineResource.new()
+```
+
+![](../.gitbook/assets/new_code_en_example.gif)
 
