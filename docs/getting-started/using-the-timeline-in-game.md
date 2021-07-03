@@ -12,13 +12,16 @@ description: You need to create a new Dialog node to use your timelines in game.
 # ...
 
 # Create the node first and start it with your timeline
-var dialog_node = Dialog.start(<your_timeline>)
+var dialog_node = Dialog.get_new_dialog_node([your_timeline])
 
 # Add that node to the scene
 add_child(dialog_node)
+
+# Start the timeline
+dialog_node.start_timeline()
 ```
 
-`<your_timeline>` can be: 
+`[your_timeline]` can be: 
 
 * The absolute path \(something like `res://<your_timeline>.tres`\) to that timeline,
 * A `DialogTimelineResource`.
