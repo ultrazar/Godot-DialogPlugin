@@ -1,7 +1,7 @@
 ---
 description: >-
-  An user-friendly dialog system for Godot Engine, with timelines, characters,
-  text boxes, dialog bubbles and many more (planned) features for your games.
+  An user-friendly Event System for Godot Engine, built as Dialog System, for
+  your games.
 ---
 
 # About the plugin
