@@ -2,8 +2,8 @@
 
 * [About the plugin](README.md)
 * [Changelog](changelog/README.md)
-  * [\[0.2.0\] Pre-1.0-Release](changelog/0.2.0-pre-1.0-release.md)
-  * [\[0.x.x\] Pre-release](changelog/0.x.x-pre-release.md)
+  * [\[0.x.x\] Pre-release](changelog/0.x.x-pre-release/README.md)
+    * [\[0.2.0\] Pre-1.0-Release](changelog/0.x.x-pre-release/0.2.0-pre-1.0-release.md)
 
 ## Getting Started
 

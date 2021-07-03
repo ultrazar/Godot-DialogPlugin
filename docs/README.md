@@ -22,7 +22,7 @@ If you find a bug, or want a feature to be included, feel free to [open a new is
 
 * **Say "¡Hola!" to internationalization.** Now you can use translations in your dialogs, and export or import those _\(as .csv\)_ aswell. Don't worry, you can use your own translations before using the plugin.
 
-Want to see the whole changelog? Take a look on [Changelog](changelog/0.x.x-pre-release.md#0-1-4-2021-05-09)
+Want to see the whole changelog? Take a look on [Changelog](changelog/0.x.x-pre-release/#0-1-4-2021-05-09)
 
 ## 🧩 How to use it 
 
