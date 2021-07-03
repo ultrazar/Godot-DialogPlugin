@@ -24,6 +24,7 @@ This is the generic node that is displayed inside the timeline editor. You can e
 | NodePath | SkipBtn\_path | `""` |
 | PanelContainer | top\_content\_node | `null` |
 | PanelContainer | properties\_content\_node | `null` |
+| Container | event\_name\_container | `null` |
 | TextureRect | icon\_node | `null` |
 | Label | index\_label\_node | `null` |
 | CheckBox | skip\_button\_node | `null` |
@@ -33,6 +34,10 @@ This is the generic node that is displayed inside the timeline editor. You can e
 | Type | Name |
 | :--- | :--- |
 | void | \_update\_node\_values \( \) |
+| void | expand\_properties \( \) |
+| void | collapse\_properties \( \) |
+| void | after\_expand\_properties \( \) |
+| void | after\_collapse\_properties \( \) |
 {% endtab %}
 
 {% tab title="Signals" %}
