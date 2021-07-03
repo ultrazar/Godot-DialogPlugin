@@ -7,7 +7,7 @@ description: Base class of any Dialog node.
 **Inherits:** [CanvasItem](https://docs.godotengine.org/en/stable/classes/class_canvasitem.html)
 
 {% hint style="info" %}
-This class works as a "Dialog Manager". You should not instance this class manually, you should `extends` its functionality.
+This class works as a "Dialog Node Manager". You should not instance this class manually, you should `extends` its functionality.
 {% endhint %}
 
 ## Description
@@ -22,11 +22,11 @@ This class works as a "Dialog Manager". You should not instance this class manua
 | [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) | DialogNode\_path | `""` |
 | [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) | PortraitsNode\_path | `""` |
 | [DialogTimelineResource](../../resource-class/class_dialog-timeline-resource.md) | timeline | `null` |
-| [float](https://docs.godotengine.org/es/stable/classes/class_float.html) | text\_speed | `0.02` |
 | [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) | event\_finished | `false` |
 | [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | next\_input | `ui_accept` |
 | [DialogDialogueNode](class_dialog-dialogue-node.md) | DialogNode | `null` |
 | [DialogPortraitManager](class_dialog-portrait-manager.md) | PortraitManager | `null` |
+| Container | OptionsContainer | `null` |
 
 ### Property Descriptions
 
@@ -45,14 +45,6 @@ NodePath that referes to the PortraitManager node
 #### [DialogTimelineResource ](../../resource-class/class_dialog-timeline-resource.md)timeline
 
 Timeline resource used by this node. If is `null`, `timeline_name`is loaded.
-
-#### [float ](https://docs.godotengine.org/es/stable/classes/class_float.html)text\_speed
-
-{% hint style="warning" %}
-This property will probably be removed and set to  [`DialogDialogueNode`](class_dialog-dialogue-node.md) instead.
-{% endhint %}
-
-The speed of the text.
 
 #### [bool ](https://docs.godotengine.org/es/stable/classes/class_bool.html)event\_finished
 
