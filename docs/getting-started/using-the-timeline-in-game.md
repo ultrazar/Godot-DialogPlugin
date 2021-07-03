@@ -18,11 +18,19 @@ var dialog_node = Dialog.start(<your_timeline>)
 add_child(dialog_node)
 ```
 
-`<your_timeline>` can be:
+`<your_timeline>` can be: 
 
-* The name of your timeline \(the name that you used when you created it\), 
-* The absolute path \(something like `res://dialog_files/timelines/<your_timeline>.tres`\) to that timeline,
+* The absolute path \(something like `res://<your_timeline>.tres`\) to that timeline,
 * A `DialogTimelineResource`.
+
+Or you can set the timeline resource directly
+
+```swift
+<DialogBaseNode>.timeline = <Your_Timeline_Resource>
+<DialogBaseNode>.start_timeline()
+```
+
+
 
 ## 🔵 Instantiate it in the scene through the editor:
 
@@ -34,11 +42,7 @@ Then, select the node:
 
 And, inside the Inspector tab, select the timeline:
 
-![Timeline selection in editor](../.gitbook/assets/godot_inspector_tab.png)
+![](../.gitbook/assets/select_timeline.png)
 
 That's it, it's fair simple.
-
-
-
-> For now, there's only 3 events. They'll be more, and you can create your custom events if you want.
 
