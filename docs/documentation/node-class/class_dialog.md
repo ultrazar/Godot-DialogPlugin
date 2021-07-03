@@ -14,7 +14,7 @@ This class exposes methods to create new [`Dialog`](class_dialog-base-node/) nod
 {% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| void | [start ](class_dialog.md#dialogbasenode-start-timeline-string-dialog_scene_path-bool-use_bubble-false)\(timeline, String dialog\_scene\_path="", bool use\_bubble=false\) |
+| [DialogBaseNode](class_dialog-base-node/) | [start ](class_dialog.md#dialogbasenode-start-timeline-string-dialog_scene_path-bool-use_bubble-false)\(timeline, String dialog\_scene\_path="", bool use\_bubble=false\) |
 | [DialogBaseNode](class_dialog-base-node/) | [get\_default\_dialog\_textbox ](class_dialog.md#dialogbasenode-get_default_dialog_textbox)\( \) |
 | [DialogBaseNode](class_dialog-base-node/) | [get\_default\_dialog\_bubble ](class_dialog.md#dialogbasenode-get_default_dialog_bubble)\( \) |
 | [Dictionary](https://docs.godotengine.org/es/stable/classes/class_dictionary.html) | get\_variables \( \) |
