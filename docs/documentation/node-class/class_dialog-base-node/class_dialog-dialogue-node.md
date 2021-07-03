@@ -2,15 +2,15 @@
 description: Base class for all dialogue nodes.
 ---
 
-# DialogDialogueNode
+# DialogDialogueManager
 
 **Inherits:** [Control](https://docs.godotengine.org/es/stable/classes/class_control.html)
 
 ## Description
 
-This is not the same as [DialogBaseNode](class_dialog_base_node.md), this node just takes cares about displaying text and showing an indicator.
+This node takes cares about displaying text and showing an indicator.
 
-Used by DialogTextEvent.
+Used by [DialogTextEvent](../../resource-class/class_dialog-event-resource/dialogtextevent.md).
 
 {% tabs %}
 {% tab title="Properties" %}
@@ -24,6 +24,17 @@ Used by DialogTextEvent.
 | RichTextLabel | TextNode |
 | Label | NameNode |
 | Control | NextIndicatorNode |
+| float | text\_speed |
+| String | next\_action |
+{% endtab %}
+
+{% tab title="Methods" %}
+| Type | Name |
+| :--- | :--- |
+| void | display\_all\_text \( \) |
+| void | display\_text \( \) |
+| void | set\_text \( String text \) |
+| void | add\_text \( String text \) |
 {% endtab %}
 {% endtabs %}
 
