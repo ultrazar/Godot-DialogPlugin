@@ -23,7 +23,7 @@ dialog_node.start_timeline()
 
 `[your_timeline]` can be: 
 
-* The absolute path \(something like `res://<your_timeline>.tres`\) to that timeline,
+* The absolute path \(something like `"res://<your_timeline>.tres"`\) to that timeline,
 * A `DialogTimelineResource`.
 
 Or you can set the timeline resource directly
