@@ -1,6 +1,6 @@
 # Installation
 
-Download the lastest release and extract the ZIP file. Move the `addons` folders to the root of your project. It's that easy!
+Download the lastest release and extract the ZIP file. Move the `addons` folder to the root of your project. It's that easy!
 
 If you want more information about installing plugins in Godot, please refer to [official documentation page](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html).
 
