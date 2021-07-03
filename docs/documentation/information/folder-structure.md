@@ -40,12 +40,3 @@ Miscelaneous folder.
 
 Resources scripts used in the editor
 
-## dialog\_files/
-
-Contains your dialog files, wich includes:
-
-* Your `DialogTimelinesesource` timelines
-* Your `DialogCharacterResource` characters
-* Your themes
-* Your custom events
-
