@@ -10,7 +10,7 @@ description: Base class for all timeline resources.
 {% tab title="Properties" %}
 | Type | Name | Description |
 | :--- | :--- | :--- |
-| [EventArray](resourcearray.md) | events | Events of this timeline. |
+| [Array](https://docs.godotengine.org/es/stable/classes/class_array.html) | events | Events of this timeline. |
 | [int](https://docs.godotengine.org/es/stable/classes/class_int.html) | current\_event | The current `event` of the timeline. |
 | [Array](https://docs.godotengine.org/es/stable/classes/class_array.html) | `_related_characters` | Array of [CharacterResource](class_dialog-character-resource.md)s related to this timeline. |
 {% endtab %}
