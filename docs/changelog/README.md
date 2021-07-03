@@ -10,6 +10,10 @@ description: >-
 
 Unreleased version. This is what is going to be in the next version \[0.2 probably\].
 
+{% hint style="warning" %}
+At some point, I forgot to keep updating this page. Many changes were made and are not documented here for the moment.
+{% endhint %}
+
 ## Added
 
 * **Event container in timeline editor**
