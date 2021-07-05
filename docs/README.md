@@ -22,7 +22,7 @@ If you find a bug, or want a feature to be included, feel free to [open a new is
 
 * **There is A LOT of changes.**
 
-Please take a look on [Changelog](changelog/0.x.x-pre-release/#0-1-4-2021-05-09) to see what is new.
+Please take a look on [Changelog](changelog/0.x.x-pre-release.md#0-1-4-2021-05-09) to see what is new.
 
 ## 🧩 How to use it 
 
