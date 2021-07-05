@@ -18,11 +18,11 @@ You can try it anyway, but be sure to make a copy of your dialog files. The form
 If you find a bug, or want a feature to be included, feel free to [open a new issue](https://github.com/AnidemDex/Godot-DialogPlugin/issues/new). You can also send me a message on [twitter](https://twitter.com/anidemdex) or Discord \(AnidemDex\#6740\).
 {% endhint %}
 
-## What is new on this version? \[0.1.4\]
+## What is new on this version? \[0.2.0\]
 
-* **Say "¡Hola!" to internationalization.** Now you can use translations in your dialogs, and export or import those _\(as .csv\)_ aswell. Don't worry, you can use your own translations before using the plugin.
+* **There is A LOT of changes.**
 
-Want to see the whole changelog? Take a look on [Changelog](changelog/0.x.x-pre-release/#0-1-4-2021-05-09)
+Please take a look on [Changelog](changelog/0.x.x-pre-release/#0-1-4-2021-05-09) to see what is new.
 
 ## 🧩 How to use it 
 
