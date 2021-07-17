@@ -24,3 +24,8 @@ Unreleased version. This is what is going to be in the next version \[1.0 maybe?
 
 * **`EditorEventNode._save_resource()`**. Use `EditorEventNode.resource_value_modified()` instead.
 
+## Fixed
+
+* **TextEventNode**. Weird issues about character selection.
+* **TextWithAudioEventNode**. The event node was uncompleted.
+
