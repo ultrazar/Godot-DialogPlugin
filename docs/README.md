@@ -9,7 +9,7 @@ description: >-
 [![Godot Engine](https://img.shields.io/badge/Godot%20Engine-Plugin-blue?style=flat-square&logo=godot-engine&logoColor=white&logoWidth=20)]() [![GitHub license](https://img.shields.io/github/license/AnidemDex/Godot-DialogPlugin?style=flat-square)](https://github.com/AnidemDex/Godot-DialogPlugin/blob/main/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/AnidemDex/Godot-DialogPlugin?style=flat-square)](https://github.com/AnidemDex/Godot-DialogPlugin/issues) [![Godot Engine](https://img.shields.io/badge/Version-0.1.4-red?style=flat-square)](https://github.com/AnidemDex/Godot-DialogPlugin/releases/tag/v0.1.4)
 
 {% hint style="danger" %}
-_**This plugin is not ready for use**_, yet. Stills in beta phase, wich means there'll be a lot of changes that'll break the code over and over again.
+_**This plugin is not ready for use**_. Stills in beta phase, wich means there'll be a lot of changes that'll break the code over and over again.
 
 You can try it anyway, but be sure to make a copy of your dialog files. The format will not change, but, just in case.
 {% endhint %}
