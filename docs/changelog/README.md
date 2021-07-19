@@ -28,4 +28,5 @@ Unreleased version. This is what is going to be in the next version \[1.0 maybe?
 
 * **TextEventNode**. Weird issues about character selection.
 * **TextWithAudioEventNode**. The event node was uncompleted.
+* **ConditionalEvent**. Is working again.
 
