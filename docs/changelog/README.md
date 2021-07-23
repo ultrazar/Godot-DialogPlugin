@@ -14,15 +14,23 @@ Unreleased version. This is what is going to be in the next version \[1.0 maybe?
 
 * **Background loading for timelines.** Say goodbye to long waiting times when opening a timeline.
 * **Edit timelines that are sub-resources.** Who says you are obliged to follow the standard?
+* **`CharacterResource`** `blip_sounds` property.
 
 ## Changed
 
 * **`DialogUtil.Logger` class updated**. Now with a better logger suit to show better information about what's happening in the background.
 * **EventDisplayer now load nodes once.** Less waiting time means more development time.
+* **`CharacterResource`**:
+  * New methods added
+  * `portraits` property is now an array instead an `PortraitsArray`
 
 ## Deprecated
 
 * **`EditorEventNode._save_resource()`**. Use `EditorEventNode.resource_value_modified()` instead.
+
+## Removed
+
+* **`CharacterResource`** `blip_sound` property.
 
 ## Fixed
 
