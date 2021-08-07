@@ -11,6 +11,10 @@
 * [Creating a Timeline](getting-started/creating-a-timeline.md)
 * [Using the Timeline in Game](getting-started/using-the-timeline-in-game.md)
 
+## Tutorials
+
+* [Creating a Custom Event](tutorials/creating-a-custom-event.md)
+
 ## Documentation
 
 * [Information](documentation/information/README.md)
