@@ -12,7 +12,8 @@ Unreleased version. This is what is going to be in the next version \[1.0 maybe?
 
 ## Fixed
 
-*  [Creating a new CharacterResource makes the editor crash](https://github.com/AnidemDex/Godot-DialogPlugin/issues/21)
+* [**Creating a new CharacterResource makes the editor crash**](https://github.com/AnidemDex/Godot-DialogPlugin/issues/21)\*\*\*\*
+* \*\*\*\*[**Opening two timelines at once mix their events**](https://github.com/AnidemDex/Godot-DialogPlugin/issues/22)
 
 ## 
 
