@@ -10,10 +10,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 Unreleased version. This is what is going to be in the next version \[1.0 maybe?\].
 
-## Fixed
-
-* [**Creating a new CharacterResource makes the editor crash**](https://github.com/AnidemDex/Godot-DialogPlugin/issues/21)\*\*\*\*
-* \*\*\*\*[**Opening two timelines at once mix their events**](https://github.com/AnidemDex/Godot-DialogPlugin/issues/22)
-
 ## 
 
