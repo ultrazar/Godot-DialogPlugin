@@ -10,5 +10,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 Unreleased version. This is what is going to be in the next version \[1.0 maybe?\].
 
+## Added
+
+* Resources Icons
+* TimelineResource add/remove event methods
+* `autostart` method in DialogBaseNode
+
+## Fixed
+
+* Question event now shows something
+
 ## 
 
