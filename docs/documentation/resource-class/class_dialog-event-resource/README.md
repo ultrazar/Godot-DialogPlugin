@@ -6,7 +6,7 @@ description: Base class for all dialog events.
 
 **Inherits:** [Resource](https://docs.godotengine.org/es/stable/classes/class_resource.html)
 
-**Inherited by:** DialogTextEvent, [DialogCharacterEvent](dialogcharacterevent.md), DialogWaitTimeEvent, DialogJumpToEvent, DialogChangeTimelineEvent, DialogCustomEvent
+**Inherited by:** [DialogTextEvent](dialogtextevent.md), [DialogCharacterEvent](dialogcharacterevent.md), DialogWaitTimeEvent, DialogJumpToEvent, DialogChangeTimelineEvent, DialogCustomEvent
 
 ## Description
 
