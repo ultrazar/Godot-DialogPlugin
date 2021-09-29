@@ -55,3 +55,28 @@ Add an event to `events`
 
 Remove an event from `events`
 
+## Usage Example
+
+```cpp
+# Creates the timeline
+var timeline := DialogTimelineResource.new()
+
+# Create some events to add in the timeline
+var event_1 := DialogTextEvent.new()
+var event_2 := DialogTextEvent.new()
+
+# Modify event properties
+event_1.text = "Hello, this is the first event"
+event_2.text = "And this is the second one!"
+
+# Add the events in the timeline
+timeline.add_event(event_1)
+timeline.add_event(event_2)
+
+# Optional:
+# Use the timeline in your DialogNode
+<DialogBaseNode>.timeline = timeline
+<DialogBaseNode>.start_timeline()
+
+```
+
