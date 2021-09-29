@@ -57,6 +57,8 @@ Remove an event from `events`
 
 ## Usage Example
 
+{% tabs %}
+{% tab title="GDScript" %}
 ```cpp
 # Creates the timeline
 var timeline := DialogTimelineResource.new()
@@ -79,4 +81,6 @@ timeline.add_event(event_2)
 <DialogBaseNode>.start_timeline()
 
 ```
+{% endtab %}
+{% endtabs %}
 
