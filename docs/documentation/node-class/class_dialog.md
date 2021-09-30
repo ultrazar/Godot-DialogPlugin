@@ -76,3 +76,45 @@ Returns the variable value of the given `key`. If the variable doesn't exist, re
 
 Sets the value in the given key. If they key doesn't exist, a new one is created.
 
+## Usage Example
+
+{% tabs %}
+{% tab title="GDScript" %}
+```cpp
+# Adding a dialogue in scene with any timeline and start it
+# This implies that is being called in a node in the active scene tree
+var dialogue_node := Dialog.get_new_dialog_node(<DialogTimelineResource>)
+dialog_node.autostart = true
+add_child(dialog_node)
+
+
+# Getting all variables saved in Dialog plugin
+var variables = Dialog.get_variables()
+
+
+# Getting a variable from the saved variables
+var foo_variable = Dialog.get_variable("bar")
+# You can also do:
+foo_variable = variables.get("bar")
+# Dialog.get_variables() returns a dictionary containing all saved variables
+# Dialog.get_variable() is essentially a <Dictionary>.get()
+
+
+# Setting a variable
+Dialog.set_variable("integer", 1)
+# Dialog.get_variable("integer") returns 1
+
+
+# You can use objects as variables, and get its individual members
+Dialog.set_variable("Any_Node", self)
+
+var node_name = Dialog.get_variable("Any_Node").name
+# This is the same as doing [self.name] here
+# But you can pass objects to use in events variables
+# and pass those objects between your objects with this singleton
+
+
+```
+{% endtab %}
+{% endtabs %}
+
