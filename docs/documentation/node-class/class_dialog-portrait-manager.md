@@ -8,7 +8,7 @@ description: Base class for any DialogPortraitManager node.
 
 ## Description
 
-Takes care of the displayed portrait of any character, saving their reference.
+Manages the displayed portrait of any character, saving their reference.
 
 
 
