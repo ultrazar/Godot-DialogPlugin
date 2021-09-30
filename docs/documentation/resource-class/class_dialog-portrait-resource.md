@@ -1,7 +1,5 @@
 ---
-description: >-
-  Base resource that holds textures to be used in game for each character
-  expression
+description: Resource that holds textures to be used in game for each character expression
 ---
 
 # DialogPortraitResource
