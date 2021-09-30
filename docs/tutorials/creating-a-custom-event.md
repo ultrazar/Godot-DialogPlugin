@@ -80,12 +80,6 @@ dialog_node.start_timeline()
 {% endtabs %}
 
 {% hint style="info" %}
-If you want to see your event inside the timeline editor toolbar take a look at the section [register your script in the corresponding category](creating-a-custom-event.md#register-your-script-in-the-corresponding-category).
+If you want to see your event inside the timeline editor toolbar take a look at the section [register your script in the corresponding category](adding-custom-events-in-timeline-editor.md).
 {% endhint %}
-
-## Register your script in the corresponding category
-
-This step is optional, but is required if you want to add a button that generates your event in the sequence editor.
-
-Extend `DialogMiscelaneousEvent`, `DialogCharacterEvent`, `DialogTextEvent` or `DialogLogicEvent` and assign it a unique `class_name`. Then restart the plugin so that your event appears in the event bar.
 
