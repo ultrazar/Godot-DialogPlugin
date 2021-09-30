@@ -8,6 +8,10 @@ description: Base class for all dialog events.
 
 **Inherited by:** [DialogTextEvent](dialogtextevent.md), [DialogCharacterEvent](dialogcharacterevent.md), DialogWaitTimeEvent, DialogJumpToEvent, DialogChangeTimelineEvent, DialogCustomEvent
 
+### Related Tutorials
+
+{% page-ref page="../../../tutorials/creating-a-custom-event.md" %}
+
 ## Description
 
 Every dialog event relies on this class. If you want to do your own event, you should `extend` this class.
@@ -16,11 +20,71 @@ Every dialog event relies on this class. If you want to do your own event, you s
 {% tab title="Properties" %}
 | Type | Name | Default |
 | :--- | :--- | :--- |
+| Texture | event\_icon | Warning Texture |
+| Color | event\_color | `Color("3c3d5e")` |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_name | `"CustomEvent"` |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_preview\_string | `""` |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_hint | `""` |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_editor\_scene\_path | `""` |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_node\_preview\_path | `""` |
+| [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_node\_properties\_path | `""` |
 | [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) | skip | `false` |
 | [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_editor\_scene\_path | `"res://addons/dialog_plugin/Nodes/editor_event_nodes/event_node_template.tscn"` |
 | [DialogBaseNode](../../node-class/class_dialog-base-node/) | \_caller | `null` |
 
 ### Property Descriptions
+
+#### Texture event\_icon
+
+The event icon that'll be displayed in the editor.
+
+
+
+#### Color event\_color
+
+The event color that event node will take in the editor.
+
+
+
+#### String event\_name
+
+The event name that'll be displayed in the editor. If the resource name is different from the event name, resource\_name is returned instead.
+
+
+
+#### String event\_preview\_string
+
+The event preview string that'll be displayed next to the event name in the editor. You can use String formats to parse variables from the script:
+
+`event_preview_string = "{resource_name}"`
+
+Will display the resource's name instead of `{resource_name}`.
+
+
+
+#### String event\_hint
+
+The event hint that'll be displayed when you hover the event button in the editor.
+
+
+
+#### String event\_editor\_scene\_path
+
+The event editor scene path. This scene will be used instead the generated one.
+
+
+
+#### String event\_node\_preview\_path
+
+The event node preview scene path. The editor node will be generated, but the preview node will be replaced with this one instead.
+
+
+
+#### String event\_node\_properties\_path
+
+The event properties scene path. The editor node will be generated, but the properties node will be replaced with this one instead.
+
+
 
 #### [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) skip <a id="property-skip"></a>
 

@@ -6,11 +6,13 @@ description: Base class for all timeline resources.
 
 **Inherits:** [Resource](https://docs.godotengine.org/es/stable/classes/class_resource.html)
 
-#### Related Tutorials:
+### Related Tutorials:
 
 {% page-ref page="../../getting-started/creating-a-timeline.md" %}
 
 {% page-ref page="../../getting-started/using-the-timeline-in-game.md" %}
+
+## Description
 
 {% tabs %}
 {% tab title="Properties" %}
