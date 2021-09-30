@@ -105,7 +105,15 @@ Loads the timeline defined in `timeline_name`.
 
 ## Usage Example
 
-```text
-var dialogue_node = Dialog.get
+{% tabs %}
+{% tab title="GDScript" %}
+```cpp
+# In a node that is currently in scene
+var dialogue_node := Dialog.get_new_dialog_node(<DialogTimelineResource>)
+dialogue_node.autostart = true
+add_child(dialogue_node)
+
 ```
+{% endtab %}
+{% endtabs %}
 
