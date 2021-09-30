@@ -1,4 +1,14 @@
+---
+description: Unused
+---
+
 # ResourceArray
+
+{% hint style="danger" %}
+## Deprecated Class.
+
+Actually is unused, and its used is discouraged.
+{% endhint %}
 
 ### **Heredado de:** [Resource](https://docs.godotengine.org/es/stable/classes/class_resource.html#class-resource)
 
