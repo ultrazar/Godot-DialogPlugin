@@ -6,6 +6,12 @@ description: Base class for all event editor nodes.
 
 **Inherits:** Control
 
+### Related Tutorials
+
+{% page-ref page="../../tutorials/creating-a-custom-event.md" %}
+
+{% page-ref page="../../tutorials/event-custom-properties.md" %}
+
 ## Description
 
 This is the generic node that is displayed inside the timeline editor. You can extend this class on any Control Node to make your own custom event editor node for your custom events.
