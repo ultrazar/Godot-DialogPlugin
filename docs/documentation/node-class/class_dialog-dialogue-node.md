@@ -36,5 +36,11 @@ Used by [DialogTextEvent](../resource-class/class_dialog-event-resource/dialogte
 | void | set\_text \( String text \) |
 | void | add\_text \( String text \) |
 {% endtab %}
+
+{% tab title="Signals" %}
+### • text\_displayed \( value \)
+
+### • character\_displayed \( value \)
+{% endtab %}
 {% endtabs %}
 
