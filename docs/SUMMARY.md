@@ -14,8 +14,8 @@
 ## Tutorials
 
 * [Creating a Custom Event](tutorials/creating-a-custom-event.md)
-* [Event Custom Properties](tutorials/event-custom-properties.md)
 * [Adding Custom Events in Timeline Editor](tutorials/adding-custom-events-in-timeline-editor.md)
+* [Event Custom Properties](tutorials/event-custom-properties.md)
 
 ## Documentation
 
