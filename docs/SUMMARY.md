@@ -9,7 +9,7 @@
 
 * [Installation](getting-started/installation.md)
 * [Creating a Timeline](getting-started/creating-a-timeline.md)
-* [Using the Timeline in Game](getting-started/using-the-timeline-in-game.md)
+* [Creating Dialog Nodes and Using Timelines](getting-started/using-the-timeline-in-game.md)
 
 ## Tutorials
 
