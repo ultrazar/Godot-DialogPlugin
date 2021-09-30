@@ -14,7 +14,7 @@ This class exposes methods to create new [`Dialog`](class_dialog-base-node/) nod
 {% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| [DialogBaseNode](class_dialog-base-node/) | [start ](class_dialog.md#dialogbasenode-start-timeline-string-dialog_scene_path-bool-use_bubble-false)\(timeline, String dialog\_scene\_path="", bool use\_bubble=false\) |
+| [DialogBaseNode](class_dialog-base-node/) | [get\_new\_dialog\_node ](class_dialog.md#get_new_dialog_node) \(timeline, String dialog\_scene\_path="", bool use\_bubble=false\) |
 | [DialogBaseNode](class_dialog-base-node/) | [get\_default\_dialog\_textbox ](class_dialog.md#dialogbasenode-get_default_dialog_textbox)\( \) |
 | [DialogBaseNode](class_dialog-base-node/) | [get\_default\_dialog\_bubble ](class_dialog.md#dialogbasenode-get_default_dialog_bubble)\( \) |
 | [Dictionary](https://docs.godotengine.org/es/stable/classes/class_dictionary.html) | get\_variables \( \) |
@@ -35,19 +35,18 @@ Default dialog bubble scene path
 
 ## Method Descriptions
 
-### •  [DialogBaseNode](class_dialog-base-node/) start\(timeline, String dialog\_scene\_path="", bool use\_bubble=false\) 
+### •  [DialogBaseNode](class_dialog-base-node/) get\_new\_dialog\_node \( timeline, String dialog\_scene\_path="", bool use\_bubble=false\)  <a id="get_new_dialog_node"></a>
 
 Returns a DialogBaseNode instance.
 
 `timeline` can be:
 
-* The name of your timeline \(the name that you used when you created it\),
-* The absolute path \(something like `res://dialog_files/timelines/<your_timeline>.tres`\) to that timeline,
-* A `DialogTimelineResource`.
+* The absolute path \(something like `res://path/to/<your_timeline>.tres`\) to that timeline,
+* A [`DialogTimelineResource`](../resource-class/class_dialog-timeline-resource.md).
 
-`dialog_scene_path` is the path of an scene wich returns a `DialogBaseNode` when is instanced. If none is passed, the default one is used.
+**`dialog_scene_path`** is the path of an scene wich returns a [`DialogBaseNode`](class_dialog-base-node/) when is instanced. If none is passed or is an invalid path, the default one is used.
 
-`use_bubble`determines if the returned node is a speech bubble or a text box. This property is ignored if `dialog_scene_path` is a valid path.
+**`use_bubble`** determines if the returned node is a speech bubble or a text box. This property is ignored if **`dialog_scene_path`** is a valid path.
 
 
 
@@ -74,4 +73,6 @@ Returns a copy of the saved plugin variables.
 Returns the variable value of the given `key`. If the variable doesn't exist, returns `null` and a warning is printed in the console.
 
 ### •  void set\_variable \( [String ](https://docs.godotengine.org/es/stable/classes/class_string.html)key, value\)
+
+Sets the value in the given key. If they key doesn't exist, a new one is created.
 
