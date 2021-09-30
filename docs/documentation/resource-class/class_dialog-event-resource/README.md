@@ -10,7 +10,7 @@ description: Base class for all dialog events.
 
 ### Related Tutorials
 
-{% page-ref page="../../../tutorials/creating-a-custom-event/" %}
+{% page-ref page="../../../tutorials/creating-a-custom-event.md" %}
 
 ## Description
 
