@@ -29,7 +29,6 @@ Every dialog event relies on this class. If you want to do your own event, you s
 | [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_node\_preview\_path | `""` |
 | [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_node\_properties\_path | `""` |
 | [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) | skip | `false` |
-| [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_editor\_scene\_path | `"res://addons/dialog_plugin/Nodes/editor_event_nodes/event_node_template.tscn"` |
 | [DialogBaseNode](../../node-class/class_dialog-base-node/) | \_caller | `null` |
 
 ### Property Descriptions
@@ -94,12 +93,6 @@ Determines if the event will go to next event inmediatly or not. If skip is true
 
 
 
-#### [String](https://docs.godotengine.org/es/stable/classes/class_string.html) event\_editor\_scene\_path
-
-The editor scene path to be used in the timeline editor.
-
-
-
 #### [DialogBaseNode](../../node-class/class_dialog-base-node/) \_caller
 
 The caller node of this event.
@@ -110,7 +103,6 @@ The caller node of this event.
 | :--- | :--- |
 | void | execute \( [DialogBaseNode ](../../node-class/class_dialog-base-node/)caller \) |
 | void | finish \( [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) skip=false \) |
-| [DialogEditorEventNode](../../node-class/class_dialog-editor-event-node.md) | get\_editor\_node \( \) |
 {% endtab %}
 
 {% tab title="Signals" %}
@@ -145,10 +137,6 @@ Executes the event behaviour.
 ### •  void  finish \(  [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) skip=false \)
 
 Ends the event behaviour.
-
-### •  [DialogEditorEventNode](../../node-class/class_dialog-editor-event-node.md)  get\_editor\_node \( \)
-
-Returns the [DialogEditorEventNode ](../../node-class/class_dialog-editor-event-node.md)defined on `event_editor_scene_path`.
 
 
 
