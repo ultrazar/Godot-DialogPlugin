@@ -12,9 +12,10 @@ Unreleased version. This is what is going to be in the next version \[1.0 maybe?
 
 ## Added
 
-* Resources Icons
-* TimelineResource add/remove event methods
-* `autostart` method in DialogBaseNode
+* Resources Icons.
+* TimelineResource add/remove event methods.
+* `autostart` method in DialogBaseNode.
+* Most of the scripts was documented.
 
 ## Fixed
 
