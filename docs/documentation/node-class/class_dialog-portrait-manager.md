@@ -33,8 +33,8 @@ Takes care of the displayed portrait of any character, saving their reference.
     <tr>
       <td style="text-align:left">void</td>
       <td style="text-align:left">
-        <p><b>add_portrait </b>( <a href="../../resource-class/class_dialog-character-resource.md">DialogCharacterResource </a>character,</p>
-        <p><a href="../../resource-class/class_dialog-portrait-resource.md">DialogPortraitResource </a>portrait,</p>
+        <p><b>add_portrait </b>( <a href="../resource-class/class_dialog-character-resource.md">DialogCharacterResource </a>character,</p>
+        <p><a href="../resource-class/class_dialog-portrait-resource.md">DialogPortraitResource </a>portrait,</p>
         <p>Vector2 relative_position = Vector2(0.414, 0.275)</p>
         <p>float rotation = 0.0</p>
         <p>bool flip_h = false</p>
@@ -43,7 +43,7 @@ Takes care of the displayed portrait of any character, saving their reference.
     </tr>
     <tr>
       <td style="text-align:left">void</td>
-      <td style="text-align:left"><b>remove_portrait </b>( <a href="../../resource-class/class_dialog-character-resource.md">DialogCharacterResource </a>character
+      <td style="text-align:left"><b>remove_portrait </b>( <a href="../resource-class/class_dialog-character-resource.md">DialogCharacterResource </a>character
         )</td>
     </tr>
     <tr>
@@ -53,8 +53,8 @@ Takes care of the displayed portrait of any character, saving their reference.
     <tr>
       <td style="text-align:left">void</td>
       <td style="text-align:left">
-        <p><b>change_portrait </b>( <a href="../../resource-class/class_dialog-character-resource.md">DialogCharacterResource </a>character,</p>
-        <p><a href="../../resource-class/class_dialog-portrait-resource.md">DialogPortraitResource </a>portrait
+        <p><b>change_portrait </b>( <a href="../resource-class/class_dialog-character-resource.md">DialogCharacterResource </a>character,</p>
+        <p><a href="../resource-class/class_dialog-portrait-resource.md">DialogPortraitResource </a>portrait
           )</p>
       </td>
     </tr>

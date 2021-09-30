@@ -29,7 +29,7 @@ Every dialog event relies on this class. If you want to do your own event, you s
 | [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_node\_preview\_path | `""` |
 | [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | event\_node\_properties\_path | `""` |
 | [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) | skip | `false` |
-| [DialogBaseNode](../../node-class/class_dialog-base-node/) | \_caller | `null` |
+| [DialogBaseNode](../../node-class/class_dialog-base-node.md) | \_caller | `null` |
 
 ### Property Descriptions
 
@@ -93,7 +93,7 @@ Determines if the event will go to next event inmediatly or not. If skip is true
 
 
 
-#### [DialogBaseNode](../../node-class/class_dialog-base-node/) \_caller
+#### [DialogBaseNode](../../node-class/class_dialog-base-node.md) \_caller
 
 The caller node of this event.
 {% endtab %}
@@ -101,7 +101,7 @@ The caller node of this event.
 {% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| void | execute \( [DialogBaseNode ](../../node-class/class_dialog-base-node/)caller \) |
+| void | execute \( [DialogBaseNode ](../../node-class/class_dialog-base-node.md)caller \) |
 | void | finish \( [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) skip=false \) |
 {% endtab %}
 
@@ -130,7 +130,7 @@ Path of the saved variables resource.
 
 ## Method Descriptions
 
-### •  void  execute \( [DialogBaseNode ](../../node-class/class_dialog-base-node/)caller \)
+### •  void  execute \( [DialogBaseNode ](../../node-class/class_dialog-base-node.md)caller \)
 
 Executes the event behaviour.
 

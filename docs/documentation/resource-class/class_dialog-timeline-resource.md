@@ -26,8 +26,8 @@ description: Base class for all timeline resources.
 {% tab title="Methods" %}
 | Type | Name |
 | :--- | :--- |
-| void | \`\`[`start`](class_dialog-timeline-resource.md#start-dialogbasenode-caller) \( [DialogBaseNode ](../node-class/class_dialog-base-node/)caller\) |
-| void | \`\`[`go_to_next_event`](class_dialog-timeline-resource.md#go_to_next_event-dialogbasenode-caller)\( [DialogBaseNode ](../node-class/class_dialog-base-node/)caller \) |
+| void | \`\`[`start`](class_dialog-timeline-resource.md#start-dialogbasenode-caller) \( [DialogBaseNode ](../node-class/class_dialog-base-node.md)caller\) |
+| void | \`\`[`go_to_next_event`](class_dialog-timeline-resource.md#go_to_next_event-dialogbasenode-caller)\( [DialogBaseNode ](../node-class/class_dialog-base-node.md)caller \) |
 | void | `add_event` \([DialogEventResource](class_dialog-event-resource/) event, Int at\_position = -1\) |
 | void | `remove_event` \([DialogEventResource](class_dialog-event-resource/) event\) |
 {% endtab %}
@@ -41,11 +41,11 @@ Emmited when the timeline ends.
 
 ## Method Descriptions
 
-### •  start \( [DialogBaseNode ](../node-class/class_dialog-base-node/)caller\)
+### •  start \( [DialogBaseNode ](../node-class/class_dialog-base-node.md)caller\)
 
 Execute the `current_event` in `events`.
 
-### •  go\_to\_next\_event \( [DialogBaseNode ](../node-class/class_dialog-base-node/)caller \)
+### •  go\_to\_next\_event \( [DialogBaseNode ](../node-class/class_dialog-base-node.md)caller \)
 
 Try to execute the next event in `events`. If there are no more events, `timeline_ended` signal is emmited.
 

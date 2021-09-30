@@ -10,7 +10,7 @@ description: Base class for all characters resource.
 
 Character resource acts as a data container to all of your characters and related portraits to that character. 
 
-To know more about portraits, see [DialogPortraitResource](class_dialog-portrait-resource.md) and [DialogPortraitManager](../node-class/class_dialog-base-node/class_dialog-portrait-manager.md). 
+To know more about portraits, see [DialogPortraitResource](class_dialog-portrait-resource.md) and [DialogPortraitManager](../node-class/class_dialog-portrait-manager.md). 
 
 {% tabs %}
 {% tab title="Properties" %}

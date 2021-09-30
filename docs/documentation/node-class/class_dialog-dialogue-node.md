@@ -10,7 +10,7 @@ description: Base class for all dialogue nodes.
 
 This node takes cares about displaying text and showing an indicator.
 
-Used by [DialogTextEvent](../../resource-class/class_dialog-event-resource/dialogtextevent.md).
+Used by [DialogTextEvent](../resource-class/class_dialog-event-resource/dialogtextevent.md).
 
 {% tabs %}
 {% tab title="Properties" %}

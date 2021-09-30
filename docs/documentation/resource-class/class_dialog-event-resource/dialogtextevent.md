@@ -22,7 +22,7 @@ description: Base Event Class for every event related to displaying text in scre
 | Font | font\_bold |
 | Font | font\_italics |
 | Font | font\_bold\_italics |
-| [DialogDialogueManager](../../node-class/class_dialog-base-node/class_dialog-dialogue-node.md) | \_DialogNode |
+| [DialogDialogueManager](../../node-class/class_dialog-dialogue-node.md) | \_DialogNode |
 {% endtab %}
 
 {% tab title="Methods" %}

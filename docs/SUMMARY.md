@@ -32,8 +32,8 @@
   * [ResourceArray](documentation/resource-class/resourcearray.md)
 * [Node Class](documentation/node-class/README.md)
   * [Dialog](documentation/node-class/class_dialog.md)
-  * [DialogBaseNode](documentation/node-class/class_dialog-base-node/README.md)
-    * [DialogDialogueManager](documentation/node-class/class_dialog-base-node/class_dialog-dialogue-node.md)
-    * [DialogPortraitManager](documentation/node-class/class_dialog-base-node/class_dialog-portrait-manager.md)
+  * [DialogBaseNode](documentation/node-class/class_dialog-base-node.md)
+  * [DialogDialogueManager](documentation/node-class/class_dialog-dialogue-node.md)
+  * [DialogPortraitManager](documentation/node-class/class_dialog-portrait-manager.md)
   * [DialogEditorEventNode](documentation/node-class/class_dialog-editor-event-node.md)
 
