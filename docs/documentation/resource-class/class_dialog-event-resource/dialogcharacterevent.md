@@ -11,7 +11,7 @@ description: Base Event Class for every event related to a character
 | Type | Name | Description |
 | :--- | :--- | :--- |
 | [DialogCharacterResource](https://docs.godotengine.org/es/stable/classes/class_int.html) | character | `null` |
-| [int](https://docs.godotengine.org/es/stable/classes/class_int.html) | selected\_portrait | `-1` |
+| [int](https://docs.godotengine.org/es/stable/classes/class_int.html) | selected\_portrait | `0` |
 
 ### Property Descriptions
 
