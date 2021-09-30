@@ -13,7 +13,8 @@
 
 ## Tutorials
 
-* [Creating a Custom Event](tutorials/creating-a-custom-event.md)
+* [Creating a Custom Event](tutorials/creating-a-custom-event/README.md)
+  * [Event Custom Properties](tutorials/creating-a-custom-event/event-custom-properties.md)
 
 ## Documentation
 
