@@ -79,7 +79,9 @@ dialog_node.start_timeline()
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
 If you want to see your event inside the timeline editor toolbar take a look at the section [register your script in the corresponding category](creating-a-custom-event.md#register-your-script-in-the-corresponding-category).
+{% endhint %}
 
 ## Register your script in the corresponding category
 
