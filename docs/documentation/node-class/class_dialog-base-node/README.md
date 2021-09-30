@@ -19,12 +19,14 @@ This class works as a "Dialog Node Manager". You should not instance this class 
 | Type | Name | Default |
 | :--- | :--- | :--- |
 | [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | timeline\_name | `""` |
+| [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) | autostart | `false` |
 | [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) | DialogNode\_path | `""` |
 | [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) | PortraitsNode\_path | `""` |
+| [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) | OptionsContainer\_path | `""` |
 | [DialogTimelineResource](../../resource-class/class_dialog-timeline-resource.md) | timeline | `null` |
 | [bool](https://docs.godotengine.org/es/stable/classes/class_bool.html) | event\_finished | `false` |
 | [String](https://docs.godotengine.org/es/stable/classes/class_string.html) | next\_input | `ui_accept` |
-| [DialogDialogueNode](class_dialog-dialogue-node.md) | DialogNode | `null` |
+| [DialogDialogueManager](class_dialog-dialogue-node.md) | DialogNode | `null` |
 | [DialogPortraitManager](class_dialog-portrait-manager.md) | PortraitManager | `null` |
 | Container | OptionsContainer | `null` |
 
@@ -34,6 +36,10 @@ This class works as a "Dialog Node Manager". You should not instance this class 
 
 The file path of the timeline.
 
+#### [bool ](https://docs.godotengine.org/es/stable/classes/class_bool.html)autostart
+
+If `true` call  `start_timeline` when the node is ready.
+
 #### [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) DialogNode\_path
 
 NodePath that refers to the DialogNode
@@ -41,6 +47,10 @@ NodePath that refers to the DialogNode
 #### [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) PortraitsNode\_path
 
 NodePath that referes to the PortraitManager node
+
+#### [NodePath](https://docs.godotengine.org/es/stable/classes/class_nodepath.html) OptionsNode\_path
+
+...
 
 #### [DialogTimelineResource ](../../resource-class/class_dialog-timeline-resource.md)timeline
 
@@ -54,9 +64,9 @@ If `true` the event have just finished.
 
 The `Input` event that will trigger the `skip` action of the event on finish.
 
-#### [DialogDialogueNode ](class_dialog-dialogue-node.md)DialogNode
+#### [DialogDialogueManager ](class_dialog-dialogue-node.md)DialogNode
 
-Dialogue Node.
+Dialogue Node Manager.
 
 #### [DialogPortraitManager ](class_dialog-portrait-manager.md)PortraitManager
 
@@ -68,6 +78,12 @@ Portrait Container Node.
 | :--- | :--- |
 | void | [start\_timeline ](./#void-start_timeline)\( \) |
 | [DialogTimelineResource](../../resource-class/class_dialog-timeline-resource.md) | [load\_timeline ](./#dialogtimelineresource-load_timeline)\( \) |
+{% endtab %}
+
+{% tab title="Signals" %}
+### • custom\_signal \( value \)
+
+Emmited when custom signal event is excecuted.
 {% endtab %}
 
 {% tab title="Constants" %}
@@ -86,4 +102,10 @@ Starts the timeline.
 ### •  ****[**DialogTimelineResource** ](../../resource-class/class_dialog-timeline-resource.md)**load\_timeline \( \)**
 
 Loads the timeline defined in `timeline_name`.
+
+## Usage Example
+
+```text
+var dialogue_node = Dialog.get
+```
 
