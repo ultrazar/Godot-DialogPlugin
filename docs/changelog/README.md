@@ -17,6 +17,10 @@ Unreleased version. This is what is going to be in the next version \[1.0 maybe?
 * `autostart` method in DialogBaseNode.
 * Most of the scripts was documented.
 
+### Changed
+
+* DialogBaseNode now inherits Control. This way you can instance DialogBox and DialogBubble directly from the editor 😀
+
 ## Fixed
 
 * Question event now shows something

@@ -4,7 +4,7 @@ description: Base class of any Dialog node.
 
 # DialogBaseNode
 
-**Inherits:** [CanvasItem](https://docs.godotengine.org/en/stable/classes/class_canvasitem.html)
+**Inherits:** [Control](https://docs.godotengine.org/es/stable/classes/class_control.html)
 
 {% hint style="info" %}
 This class works as a "Dialog Node Manager". You should not instance this class manually, you should `extends` its functionality.
