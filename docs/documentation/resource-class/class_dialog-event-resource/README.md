@@ -56,7 +56,9 @@ The event name that'll be displayed in the editor. If the resource name is diffe
 
 The event preview string that'll be displayed next to the event name in the editor. You can use String formats to parse variables from the script:
 
-`event_preview_string = "{resource_name}"`
+```cpp
+event_preview_string = "{resource_name}"
+```
 
 Will display the resource's name instead of `{resource_name}`.
 
