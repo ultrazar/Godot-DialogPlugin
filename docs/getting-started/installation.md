@@ -1,8 +1,23 @@
 # Installation
 
-Download the lastest release and extract the ZIP file. Move the `addons` folder to the root of your project. It's that easy!
+### 1. Download the lastest release
 
+![](../.gitbook/assets/image%20%287%29.png)
+
+### 2. Extract the ZIP file
+
+Move the `addons` folder to the root of your project _\(where is supposed to be your `project.godot` file and all files related to your Godot project\)_. It's that easy!
+
+![](../.gitbook/assets/image%20%289%29.png)
+
+{% hint style="info" %}
 If you want more information about installing plugins in Godot, please refer to [official documentation page](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html).
+{% endhint %}
 
-If you're downloading the repository instead, make sure to move only `dialog_plugin` to you `addons` folder. Extra folders are for debug purposes.
+## Enable the plugin
+
+After you move the plugin to your `addons` folder, open your godot project \(if it's not already opened\) and go to `Project > Project Settings... > Plugins`. Then, look for the plugin and click on `Enable` checkbox. I'll freeze the editor for a second and it'll let you know when everything is ready.  
+
+
+![](../.gitbook/assets/image%20%288%29.png)
 
