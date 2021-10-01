@@ -1,7 +1,7 @@
 # Creating a Timeline
 
-{% hint style="info" %}
-The plugin must be enabled.
+{% hint style="warning" %}
+[The plugin must be enabled.](installation.md#enable-the-plugin)
 {% endhint %}
 
 ## Creating a timeline through the editor
