@@ -12,18 +12,18 @@ Unreleased version. This is what is going to be in the next version \[1.0 maybe?
 
 ## Added
 
-* Resources Icons.
-* TimelineResource add/remove event methods.
-* `autostart` method in DialogBaseNode.
-* Most of the scripts was documented.
+* **Resources Icons.**
+* **TimelineResource add/remove event methods.**
+* **`autostart` method in DialogBaseNode.** Setting it to `true` will make the timeline starts when the node is ready.
+* **Most of the scripts was documented.** _GDScript 2.0 is on the way, we can't lost that train._
 
 ### Changed
 
-* DialogBaseNode now inherits Control. This way you can instance DialogBox and DialogBubble directly from the editor 😀
+* **DialogBaseNode now inherits Control**. This way you can instance DialogBox and DialogBubble directly from the editor 😀
 
 ## Fixed
 
-* Question event now shows something
+* **Question event now shows something.** _"I want to tell you the story about the guy that forgots to finish his work..."_
 
 ## 
 
