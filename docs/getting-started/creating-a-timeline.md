@@ -1,7 +1,7 @@
 # Creating a Timeline
 
 {% hint style="info" %}
-The plugin must be activated.
+The plugin must be enabled.
 {% endhint %}
 
 ## Creating a timeline through the editor
