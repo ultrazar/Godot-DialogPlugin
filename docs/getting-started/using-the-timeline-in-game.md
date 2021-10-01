@@ -8,9 +8,8 @@ description: >-
 
 In order to use your timelines, you'll need a DialogNode \(DialogBaseNode instance to be clear\) that will interpret the timeline's content.
 
-You had two options to create an instance of DialogBaseNode, [through the editor](using-the-timeline-in-game.md#instantiate-it-in-the-scene-through-the-editor) or [by code](creating-a-timeline.md#creating-a-timeline-through-code).
+You had two options to create an instance of DialogBaseNode, [through the editor](using-the-timeline-in-game.md#instantiate-it-in-the-scene-through-the-editor) or [by code](creating-a-timeline.md#creating-a-timeline-through-code). 
 
-  
 Instancing it through editor let you manage visually the properties of the node, and it'll be saved in your scene.
 
 Instancing it by code let you create them everytime you need it, or by response to some method/signal call.  
@@ -18,21 +17,29 @@ Instancing it by code let you create them everytime you need it, or by response 
 
 ## 🔵 Instantiate it in the scene through the editor:
 
-![Instance the ingame dialogue node](../.gitbook/assets/godot_instance_dialog_node.png)
+Click on "Add Child Node" button in the current scene:
 
-Then, select the node:
+![](../.gitbook/assets/image%20%287%29.png)
 
-![Node in Scene Tree](../.gitbook/assets/godot_scene_tree.png)
+Select the node you prefer:
 
-And, inside the Inspector tab, select the timeline:
+![](../.gitbook/assets/image%20%288%29.png)
+
+{% hint style="danger" %}
+**Do not** instance _DialogBaseNode_ as root of any scene. If you want to use it as root of an scene, select the scene manually in:
+
+`addons/dialog_plugin/Nodes/in_game_dialogue_[...]` 
+
+and instance it from there.
+{% endhint %}
+
+When you have created the node, you can select the timeline inside the Inspector tab:
 
 ![](../.gitbook/assets/select_timeline.png)
 
-That's it, it's fair simple.
-
 ## 🔵 Create it from code:
 
-```swift
+```coffeescript
 # ...
 # inside any node in the scene
 # ...
